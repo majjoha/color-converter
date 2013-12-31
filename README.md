@@ -18,6 +18,11 @@ $ color-converter ff0000
 #ff0000 -> rgb(255, 255, 0)
 ```
 
+```bash
+$ color-converter "#c71585"
+#c71585 -> rgb(199, 21, 133)
+```
+
 ### Convert a color in RGB to a hexadecimal value
 ```bash
 $ color-converter 255 255 0
