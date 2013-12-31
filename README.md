@@ -8,8 +8,13 @@ Feel free to contribute to the project in any way or create an issue if you
 happen to find a bug.
 
 ## Installation
-- ``git clone https://github.com/majjoha/color-converter.git``
-- ``cd color-converter && sudo cp color-converter /usr/local/bin/color-converter``
+```bash
+$ git clone https://github.com/majjoha/color-converter.git
+```
+
+```bash
+$ cd color-converter && sudo cp color-converter /usr/local/bin/color-converter
+```
 
 ## Usage
 ### Convert a hexadecimal color to RGB
