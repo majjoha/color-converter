@@ -1,5 +1,4 @@
 # color-converter
-=================
 
 This command line utility simply converts colors from hexadecimal colors to RGB
 and vice versa. It aims for simplicity, portability and does not rely on
@@ -9,8 +8,8 @@ Feel free to contribute to the project in any way or create an issue if you
 happen to find a bug.
 
 ## Installation
-- ``git clone https://github.com/majjoha/color-converter``
-- ``cd color-converter && sudo cp color-converter /usr/localbin/color-converter``
+- ``git clone https://github.com/majjoha/color-converter.git``
+- ``cd color-converter && sudo cp color-converter /usr/local/bin/color-converter``
 
 ## Usage
 ### Convert a hexadecimal color to RGB
