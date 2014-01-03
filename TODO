@@ -1,1 +1,5 @@
 - Display the color in the command line (if possible).
+- Add opacity as an optional parameter.
+- Change luminosity of any given color.
+- Convert RGB -> HSV and HSV -> RGB.
+- Convert RGB -> HSL and HSL -> RGB.
