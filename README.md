@@ -36,6 +36,6 @@ rgb(255, 255, 0) -> #ffff00
 
 ### Change luminosity of a RGB value
 ```bash
-$ color-converter 255 255 -25
+$ color-converter 255 255 255 -25
 rgb(255, 255, 255) -> rgb(230, 230, 230)
 ```
