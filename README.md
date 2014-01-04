@@ -1,8 +1,8 @@
 # color-converter
 
 This command line utility simply converts colors from hexadecimal colors to RGB
-and vice versa. It aims for simplicity, portability and does not rely on
-``awk``, ``cut`` or other commands.
+and vice versa. It aims for simplicity, portability and uses ``bc``, ``cut``
+and other commands as little as possible.
 
 Feel free to contribute to the project in any way or create an issue if you
 happen to find a bug.
@@ -32,4 +32,10 @@ $ color-converter "#c71585"
 ```bash
 $ color-converter 255 255 0
 rgb(255, 255, 0) -> #ffff00
+```
+
+### Change luminosity of a RGB value
+```bash
+$ color-converter 255 255 -25
+rgb(255, 255, 255) -> rgb(230, 230, 230)
 ```
