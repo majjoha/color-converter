@@ -1,5 +1,5 @@
-- Display the color in the command line (if possible).
 - Add opacity as an optional parameter.
-- Change luminosity of any given color.
+- Change luminosity by converting first to HSL values and then back to RGB like
+  Sass.
 - Convert RGB -> HSV and HSV -> RGB.
 - Convert RGB -> HSL and HSL -> RGB.
